@@ -7,3 +7,53 @@
   height:200px;
   background-color: #ff0000;
 }
+
+.body-background {
+  background-color: #0e0e0e;
+  margin: 0;
+}
+
+.container-size {
+  background-color: yellow;
+  height: 600px;
+  padding: 10px 10px 5px 5px;
+}
+
+.header-size {
+  background-color: blue;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.nav-size {
+  background-color: green;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.content-size {
+  background-color: red;
+  height: 200px;
+  margin: 0;
+  border: 2px solid black;
+
+}
+
+.aside-size {
+  background-color: lightblue;
+  height: 200px;
+  margin: 0;
+  border: 2px solid black;
+}
+
+.promo-size {
+  background-color: orange;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.footer-size {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
