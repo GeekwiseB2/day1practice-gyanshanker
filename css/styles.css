@@ -1,59 +1,58 @@
-.col-sm-8 {
-  height: 200px;
-  background-color: #0000ff;
-}
 
-.col-md-4 {
-  height:200px;
-  background-color: #ff0000;
-}
-
-.body-background {
-  background-color: #0e0e0e;
-  margin: 0;
-}
-
-.container-size {
+.container-char {
   background-color: yellow;
-  height: 600px;
-  padding: 10px 10px 5px 5px;
 }
 
-.header-size {
+.sub-container {
+  margin: 20px 20px 10px 10px;
+  border: 1px solid black;
+}
+
+.header-char {
   background-color: blue;
   height: 100px;
   border: 2px solid black;
 }
 
-.nav-size {
+.nav-char {
   background-color: green;
   height: 50px;
   border: 2px solid black;
 }
 
-.content-size {
+.content-char {
   background-color: red;
   height: 200px;
-  margin: 0;
   border: 2px solid black;
 
 }
 
-.aside-size {
+.aside-char {
   background-color: lightblue;
   height: 200px;
-  margin: 0;
   border: 2px solid black;
 }
 
-.promo-size {
+.promo-char {
   background-color: orange;
   height: 150px;
   border: 2px solid black;
 }
 
-.footer-size {
+.footer-char {
   background-color: black;
   color: white;
   height: 50px;
+}
+
+@media screen and (min-width:768px) and (max-width: 968px){
+  .content-char {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .promo-char {
+    background-color: purple;
+  }
 }
